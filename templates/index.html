@@ -1,0 +1,15 @@
+<form method="POST">
+    Trip Distance: <input type="number" step="any" name="Trip_Distance_km"><br>
+    Time of Day: <input type="text" name="Time_of_Day"><br>
+    Day of Week: <input type="text" name="Day_of_Week"><br>
+    Passenger Count: <input type="number" step="any" name="Passenger_Count"><br>
+    Traffic Conditions: <input type="text" name="Traffic_Conditions"><br>
+    Weather: <input type="text" name="Weather"><br>
+    Base Fare: <input type="number" step="any" name="Base_Fare"><br>
+    Per Km Rate: <input type="number" step="any" name="Per_Km_Rate"><br>
+    Per Minute Rate: <input type="number" step="any" name="Per_Minute_Rate"><br>
+    Trip Duration: <input type="number" step="any" name="Trip_Duration_Minutes"><br>
+    <input type="submit" value="Predict">
+</form>
+
+<h2>{{ prediction }}</h2>
